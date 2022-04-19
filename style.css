@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+list-style-type: none;
+}
+
+
+body {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgba(205, 134, 63, 0.193);
+color: rgb(205, 63, 63);
+margin: 15px;
+padding: 15px;
+border-bottom: 1.5px solid rgb(205, 63, 63);
+}
+
+h2 {
+    color: peru;
+    margin: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1.5px solid rgb(205, 63, 63);
+    margin: 15px;
+}
+
+li {
+    text-align: left;
+    font-size: 14px;
+    margin: 5px;
+
+}
+
+img {
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.etape {
+    border-bottom: 1.5px solid rgb(205, 63, 63);
+    margin: 15px;
+}
+
+
+p {
+    text-align: justify;
+    font-size: 14px;
+    margin: 10px;
+
+}
+
+span {
+    font-size: 10px;
+    color: peru;
+    font-style: italic;
+}
+
+
+table {
+    border: 2px solid peru;
+    border-collapse: collapse;
+width: 70%;
+margin: auto;
+}
+
+td {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.calories {
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+
+
+table th, td {
+    border: 1px solid peru;
+}
+
+.contact {
+    margin: 20px;
+    border-top: 1.5px solid rgb(205, 63, 63);
+}
+
+form label, form input {
+    width: 80%;
+    font-size: 14px;
+    margin-bottom: 10px
+
+}
+
+#fname, #email, #lname {
+    font-style: italic;
+}
+
+#button {
+    width: 30%;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(205, 63, 63);
+}
